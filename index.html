@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "css/index.css">
+        <link rel = "stylesheet" href = "css/index2.css">
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
+        <title>Osebni portfolio</title>
+    </head>
+    <body>
+        <div id = "preloader">
+            <div id = "loader"></div>
+        </div>
+
+        <div id = "vsebina">
+
+            <!--NAVIGACIJSKI MENI-->
+            <div id = "nav">
+                <div id = "nav-left">
+                    <h3><a href = "index.html">Jaša Lampe</a></h3>
+                </div>
+                <div id = "nav-right">
+                    <ul id = "nav-right-list">
+                        <li class = "nav-item"><a onclick = "premikDoSekcije('o-meni')">O meni</a></li>
+                        <li class = "nav-item"><a onclick = "premikDoSekcije('veščine')">Veščine</a></li>
+                        <li class = "nav-item"><a onclick = "premikDoSekcije('projekti')">Projekti</a></li>
+                        <li class = "nav-item"><a onclick = "premikDoSekcije('kontakt-okvir')">Kontakt</a></li>
+                        <div id = "preklop_ikonca-okvir">
+                            <img src = "slike/light-mode.png" id = "preklop_ikonca" onclick = "preklopiTemo()">
+                        </div>
+                    </ul>
+                        
+                </div>
+            </div>
+            
+            <!--VSEBINA-->
+            <div class = "middle">
+
+                <!--UVODNA STRAN-->
+                <div id = "middle1">
+                    <div id = "middle-items">
+                        <div id = "middle1-item1">
+                            <div id = "middle1-item1_2">
+                                <h1>Dobrodošli!</h1>
+                                <p id = "naslov-tekst">Živjo, moje ime je Jaša in dobrodošli na mojem osebnem portfoliu. Sem 18 let star mladenič in prihajam iz Zgornjega Kašlja. 
+                                    Trenutno obiskujem 4. letnik srednje šole Vegova Ljubljana - smer tehnik računalništva.</p>
+                            </div>  
+                        </div>
+                        <div id = "middle1-item2">
+                            <img src = "slike/slika1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <hr id = "črta1">
+                
+                <!--O MENI-->
+                <div id = "o-meni">
+                    <div id = "o-meni2">
+                        <h2>O meni</h2>
+                    <p> Sam sebe bi označil kot delavnega in vztrajnega človeka. Sem velik perfekcionist in zelo zahteven sam do sebe.  
+                        V življenju si vedno znova rad zastavljam manjše cilje na različnih področjih, kar me dodatno motivira k doseganju skupnega večjega cilja. 
+                        Mislim da je ta navada za vse lahko zelo uporabna v življenju.
+                    </p>
+                    <p>
+                        V prostem času se rekreativno ukvarjam s športom, predvsem s kolesarjenjem in igranjem dvoranskega nogometa, v zimskih mesecih tudi s tekom in fitnesom.
+                        Šport vidim kot hobi, ki mi da občutek svobode, zbistri mojo glavo in ima na splošno pozitiven učinek name. 
+                        Ko pa se sam ne ukvarjam s športom, pa ga rad tudi spremljam pred televizijskim ekranom, še posebej angleško nogometno ligo in MotoGP prvenstvo.
+                    </p>
+                    <p>
+                        Dobivati sem začel tudi veliko zanimanja za spletne tehnologije. 
+                        Navdušuje me kombinacija kreativnosti in logičnega razmišljanja, ki je potrebna za oblikovanje spletnih strani, zato skušam čim bolj razširiti svoje znanje o tem.
+                        Prvi korak, ki mi bo pri tem pomagal je izdelovanje spletne trgovine kot maturitetnega izdelka.
+                    </p>
+                    </div>
+                </div>
+    
+                <hr class = "črta">
+
+                <!--VEŠČINE-->
+                <div id = "veščine">
+                    <h2>Moje Veščine</h2>
+                    <div id = "veščine-okvir">
+                        <div class = "veščine-vrstica">
+                            <div class = "veščine-box">
+                                <h3>Programski jeziki</h3>
+                                <ul>
+                                    <li>C++</li>
+                                    <li>PHP</li>
+                                    <li>Batch</li>
+                                </ul>
+                            </div>
+                            <div class = "veščine-box">
+                                <h3>Spletne tehnologije</h3>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "veščine-vrstica">
+                            <div class = "veščine-box">
+                                <h3>Sistemi za upravljanje PB</h3>
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>MariaDB</li>
+                                    <li>Firebird</li>
+                                </ul>
+                            </div>
+                            <div class = "veščine-box">
+                                <h3>Razvojna okolja</h3>
+                                <ul>
+                                    <li>Visual Studio Code</li>
+                                    <li>Arduino IDE</li>
+                                    <li>Visual Paradigm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr class = "črta">
+    
+                <!--PROJEKTI-->
+                <div id = "projekti">
+                    <div id = "projekti-naslov">
+                        <h2>Projekti</h2>
+                    </div>
+                    <div id = "projekti-projekt">
+    
+                        <div class = "projekt-okvir" id = "projekt1">
+                            <div class = "projekt-okvir2">
+                                <div class = "projekt-opis">
+                                    <h3>Vesnine Sladke Sanje</h3>
+                                    <p>Spletna trgovina, ki ponuja različne vrste piškotov in darilnih embalaž. 
+                                       Na žalost ni bila nikoli zares končana, zaradi pomanjkanja časa in motivacije.
+                                    </p>
+                                    <button class = "projekt-gumb" id = "gumb1" onclick = "prikaziVec('projekt-podroben_opis1', 'gumb1')">Prikaži več</button>
+                                </div>
+                                <div class = "projekt-slika">
+                                    <img src = "slike/vss_domov.png">
+                                </div>
+                            </div>
+                            <div id = "projekt-podroben_opis1" class = "projekt-podroben_opis">
+                                <div id = "projekt-podroben_opis1-okvir">
+                                    <h3>Spletna trgovina se deli na 4 sekcije: </h3>
+                                    <div class = "projekt-podroben_opis1-okvir2">
+                                        <div class = "projekt-podroben_opis1-okvir3">
+                                            <h4>Domov</h4>
+                                            <img src = "slike/vss_domov.png">
+                                            <p>Domača stran, ki na splošno prikaže vso ponudbo piškotov in darilnih embalaž.</p>
+                                        </div>
+                                        <div class = "projekt-podroben_opis1-okvir3">
+                                            <h4>Piškoti</h4>
+                                            <img src = "slike/vss_piskoti.png">
+                                            <p>Prikazuje ponudbo vseh piškotov, kot tudi vse možne velikosti njihovega pakiranja.</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class = "projekt-podroben_opis1-okvir2">
+                                        <div class = "projekt-podroben_opis1-okvir3">
+                                            <h4>O nas</h4>
+                                            <img src = "slike/vss_o_nas.png">
+                                            <p>Kratek opis poslanstva spletne trgovine.</p>
+                                        </div>
+                                        <div class = "projekt-podroben_opis1-okvir3">
+                                            <h4>Darila</h4>
+                                            <img src = "slike/vss_darila.png">
+                                            <p>Vsa ponujena darilna embalaža.</p>
+                                        </div>
+                                    </div>
+    
+                                    <div id = "projekt-podroben_opis1-okvir2-opis">
+                                        <h3>Uporabljeni programski jeziki:</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+    
+                                        <!--<h3>Povezava: <a href = "vss/index.html">Vesnine Sladke Sanje</a></h3>-->
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class = "projekt-okvir" id = "projekt2">
+                            <div class = "projekt-okvir2">
+                                <div class = "projekt-opis">
+                                    <h3>Bikec Ferdinand</h3>
+                                    <p> SDL igrica z 2D grafiko, narejena s programskim jezikom C++ in pomočjo SDL knjižnice. Cilj igre je poiskati vse arene, eliminirati stražarje aren in nato vse arene uničiti. 
+                                        Igra ima 2 stopnji. 
+                                    </p>
+                                    <button class = "projekt-gumb" id = "gumb2" onclick = "prikaziVec('projekt-podroben_opis2', 'gumb2')">Prikaži več</button>
+                                </div>
+                                <div class = "projekt-slika">
+                                    <img src = "slike/slika3.png">
+                                </div>
+                            </div>
+                            <div id = "projekt-podroben_opis2" class = "projekt-podroben_opis">
+                                <div id = "projekt-podroben_opis2-okvir">
+                                    <div class = "projekt-podroben_opis2-okvir2">
+                                        <h3>Meni</h3>
+                                        <img src = "slike/bf_menu.png">
+                                    </div>
+                                    <div class = "projekt-podroben_opis2-okvir2">
+                                        <div id = "projekt-podroben_opis2-okvir3">
+                                            <div class = "projekt-podroben_opis-okvir4">
+                                                <h3>Iskanje aren</h3>
+                                                <img src = "slike/bf_igranje.png">
+                                            </div>
+                                            <div class = "projekt-podroben_opis-okvir4">
+                                                <h3>Bojevanje v areni</h3>
+                                                <img src = "slike/bf_znotraj_arene.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class = "projekt-podroben_opis2-okvir2">
+                                        <h3>Statistika igre</h3>
+                                        <img src = "slike/bf_konec.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class = "projekt-okvir" id = "projekt3">
+                            <div class = "projekt-okvir2">
+                                <div class = "projekt-opis">
+                                    <h3>Kviz spomina</h3>
+                                    <p> Igrica, ki testira naš spomin in pa tudi znanje. Narejena je bila pri predmetu ITK s programskim jezikom Batch. Ima 4 stopnje.
+                                    </p>
+                                    <button class = "projekt-gumb" id = "gumb3" onclick = "prikaziVec('projekt-podroben_opis3', 'gumb3')">Prikaži več</button>
+                                </div>
+                                <div class = "projekt-slika">
+                                    <img src = "slike/ks_meni.png">
+                                </div>
+                            </div>
+                            <div id = "projekt-podroben_opis3" class = "projekt-podroben_opis">
+                                <div id = "projekt-podroben_opis3-okvir">
+                                    <div class = "projekt-podroben_opis3-okvir2">
+                                        <h3>Primer vprašanja</h3>
+                                        <img src = "slike/ks_vprasanje.png">
+                                    </div>
+                                    <div class = "projekt-podroben_opis3-okvir2">
+                                        <h3>Končni zaslon</h3>
+                                        <img src = "slike/ks_konec.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <hr class = "črta">
+
+                <!--KONTAKT-->
+                
+                <div id = "kontakt-okvir">
+                    <form id = "kontakt">
+                        <h2>Kontaktiraj <span>Me</span></h2>
+                        <div id = "form-ime_priimek-okvir">
+                            <input type = "text" placeholder = "Ime" id = "ime"required>
+
+                            <input type = "text" placeholder = "Priimek" id = "priimek" required>
+                        </div>
+                        <input type = "email" placeholder = "Elektronska pošta" id = "email"required>
+                        <textarea placeholder = "Sporočilo" rows = "7" required id = "sporocilo"></textarea>
+                        <button id = "form-gumb" type = "submit" onclick = "preveriVeljavnostVnosov(event)">Pošlji</button>
+                    </form>
+                </div>
+                
+                
+
+                <!--SPOROČILO OB USPEŠNEM POŠILJANJU - POTRDITEV-->
+                <div id = "potrditev">
+                    <div id = "potrditev2">
+                        <p>Vaše sporočilo je bilo uspešno poslano!</p>
+                        <button onclick = "zapriPotrditev()">Zapri</button>
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+        </div>
+
+        <script src = "js/index.js">
+            
+        </script>
+    </body>
+</html>

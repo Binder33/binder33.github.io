@@ -1,0 +1,358 @@
+@media (max-width: 1024px) {
+    #vsebina {
+        width: 100vw;
+    }
+    #nav-left {
+        margin-left: 20px;
+    }
+    #nav-right {
+        margin-right: 20px;
+    }
+    #nav-right-list {
+        gap: 60px;
+    }
+
+    #middle {
+        width: 95vw;
+    }
+    #middle1{
+        width: 90vw;
+    }
+    #middle-items {
+        gap: 20px;
+    }
+    #middle1-item2 img {
+        width: 45vh;
+    }
+    #o-meni {
+        width: 90vw;
+    }
+
+    hr {
+        width: 90vw;
+    }
+
+    #veščine {
+        width: 100vw;
+    }
+    .veščine-vrstica {
+        gap: 2%;
+    }
+
+    .projekt-okvir {
+        width: 90vw;
+    }
+    .projekt-slika img {
+        width: 400px;
+    }
+    .projekt-okvir2 {
+        gap: 2vw;
+    }
+    .projekt-opis {
+        width: 37.5%;
+        gap: 20px;
+    }
+
+    .projekt-podroben_opis1-okvir2 {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .projekt-podroben_opis1-okvir3 {
+        width: 85%;
+        align-items: center;
+    }
+    .projekt-podroben_opis1-okvir3 img {
+        width: 100%;        
+    }
+    .projekt-podroben_opis1-okvir3 p {
+        width: 80%;
+    }
+
+    #projekt-podroben_opis2-okvir img {
+        width: 90%;
+    }
+    #projekt-podroben_opis2-okvir3 {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .projekt-podroben_opis3-okvir2 {
+        align-items: center;
+    }
+    .projekt-podroben_opis3-okvir2 img{
+        width: 90%;
+    }
+
+    #kontakt-okvir {
+        width: 100vw;
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+    #nav-left a {
+        font-size: 22px;
+    }
+    #nav-right-list {
+        gap: 25px;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    #middle1 {
+        margin-top: 70px;
+    }
+    #middle-items {
+        flex-direction: column;
+    }
+    #middle1-item1_2 p {
+        width: 80vw;
+    }
+    #middle1-item2 img {
+        width: 40vh;
+    }
+
+    .projekt-okvir {
+        width: 80vw;
+    }
+    .projekt-okvir2 {
+        flex-direction: column;
+    }
+    .projekt-opis {
+        width: 75%;
+        margin-top: 10px;
+    }
+    .projekt-slika img{
+        width: 90%;
+    }
+
+    #projekt-podroben_opis1-okvir2-opis ul {
+        gap: 25%;
+    }
+
+    #kontakt {
+        gap: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #form-ime_priimek-okvir {
+        flex-direction: column;
+        width: 87.6%;
+        align-items: center;
+        gap: 25px;
+    }
+    #form-ime_priimek-okvir input {
+        width: 97%;
+    }
+}
+
+
+@media (max-width: 684px) {
+    #middle1-item1_2 p {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 601px) {
+    #nav-left {
+        margin-left: 10px;
+    }
+    #nav-right {
+        margin-right: 8px;
+    }
+    #nav-right-list {
+        gap: 10px;
+    }
+    #preklop_ikonca {
+        width: 30px;
+    }
+    #preklop_ikonca:hover {
+        width: 35px;
+    }
+
+    #middle-items {
+        gap: 30px;
+    }
+    #middle1-item1_2 h1 {
+        font-size: 45px;
+    }
+    #middle1-item1_2 p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    #o-meni {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #veščine {
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 506px) {
+    #nav {
+        justify-content: center;
+    }
+    #nav-left {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #nav-left a{
+        font-size: 20px;
+    }
+    #nav-right-list {
+        margin-right: 3px;
+        font-size: 17px;
+        gap: 8px;
+    }
+    #preklop_ikonca-okvir {
+        width: 52px;
+    }
+
+    #middle1-item2 img{
+        width: 37vh;
+    }
+
+    .projekt-okvir {
+        width: 90vw;
+    }
+
+    
+}
+
+@media (max-width: 440px) {
+    #nav-left {
+        margin-left: 3px;
+    }
+    #nav-left a{
+        font-size: 18px;
+    }
+    #nav-right-list {
+        margin-right: 1px;
+        font-size: 15px;
+    }
+    #nav-right {
+        margin-right: 1px;
+    }
+
+    #veščine {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #kontakt-okvir {
+        height: auto;
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #nav-left {
+        margin: 0;
+    }
+    #nav-left a {
+        font-size: 17px;
+    }
+    #nav-right {
+        margin: 0;
+    }
+    #nav-right-list {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-height: 670px) {
+    #middle1 {
+        height: calc(100vh - 70px);
+    }
+    #middle1-item2 img {
+        /*width: 35vh;*/
+    }
+    #o-meni {
+        height: auto;
+    }
+
+    #veščine {
+        height: auto;
+        margin-top: 20px;
+    }
+    #kontakt-okvir {
+        height: auto;
+    }
+    #kontakt {
+        gap: 5px;
+    }
+    #form-ime_priimek-okvir {
+        gap: 5px;
+    }
+    #form-gumb {
+        padding: 10px 30px;
+        font-size: 23px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-height: 670px) and (max-width: 800px) {
+    #middle1-item1_2 h1 {
+        font-size: 45px;
+    }
+    #middle1-item1_2 p {
+        font-size: 20px;
+    }
+    #middle1-item2 img {
+        width: 30vh;
+    }
+}
+
+@media (max-width: 1025px) and (max-height: 700px) {
+    #nav {
+        gap: 15px;
+        justify-content: center;
+    }
+    #nav-left {
+        margin-left: 10px;
+    }
+    #nav-right {
+        margin-right: 10px;
+    }
+    #veščine {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media (max-width: 600px) and (max-height: 940px) {
+    #nav {
+        justify-content: center;
+    }
+    #nav-left {
+        margin-left: 10px;
+    }
+    #nav-right {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
